@@ -64,7 +64,7 @@ func prepareTrack(id string) error {
 		return err
 	}
 
-	res, err := client.Do(req, nil)
+	res, err := client.Do(req)
 	if err != nil {
 		return err
 	}
